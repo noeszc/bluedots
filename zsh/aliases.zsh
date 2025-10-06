@@ -106,7 +106,7 @@ alias gg='git branch | fzf | xargs git checkout'
 # Set Upstream Branch
 alias gup='git branch --set-upstream-to=origin/$(git-current-branch) $(git-current-branch)'
 
-# Git Checkout Next/Previous Commit
+# git clone https://github.com/tmux-plugins/tpm ~/.config/tmux/plugins/tpmGit Checkout Next/Previous Commit
 alias gnext='git log --ancestry-path --format=%H ${commit}..master | tail -1 | xargs git checkout'
 alias gprev='git checkout HEAD^'
 
