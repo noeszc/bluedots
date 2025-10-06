@@ -31,7 +31,8 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 flatpak install -y flathub \
     com.google.Chrome \
     com.slack.Slack \
-    com.spotify.Client
+    com.spotify.Client \
+		org.localsend.localsend_app
 
 if ! command -v 1password > /dev/null 2>&1; then
     sudo rpm --import https://downloads.1password.com/linux/keys/1password.asc
