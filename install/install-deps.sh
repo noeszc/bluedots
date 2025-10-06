@@ -6,6 +6,7 @@ sudo dnf install -y \
     git \
     neovim \
     zoxide \
+    xclip \
     fzf \
     ripgrep \
     fd-find \
