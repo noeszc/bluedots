@@ -1,0 +1,17 @@
+### Linux ###
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# env
+zsh/secrets.zsh

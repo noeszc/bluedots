@@ -1,0 +1,34 @@
+# font configuration
+font-family                    = CommitMono
+font-family-italic             = CommitMono
+font-family-bold               = CommitMono
+font-family-bold-italic        = CommitMono
+font-style-italic              = false
+font-style-bold-italic         = false
+font-style-bold                = false
+font-synthetic-style           = false
+font-size                      = 12
+
+# spacing & kayout
+adjust-cell-height             = 25%
+adjust-cell-width             =  0%
+window-padding-x               = 12
+window-padding-y               = 10
+
+# shell integration
+shell-integration              = zsh
+
+# theme
+theme = dark:modus_vivendi_tritanopia,light:modus_operandi_tritanopia
+
+# cursor & visual
+adjust-cursor-thickness        = 3
+adjust-underline-position      = 3
+bold-is-bright                 = false
+cursor-invert-fg-bg            = true
+cursor-opacity                 = 0.8
+
+# interaction & behaviour
+link-url                       = true
+mouse-hide-while-typing        = true
+keybind = shift+enter=text:\x1b\r
