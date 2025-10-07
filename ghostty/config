@@ -7,7 +7,7 @@ font-style-italic              = false
 font-style-bold-italic         = false
 font-style-bold                = false
 font-synthetic-style           = false
-font-size                      = 10
+font-size                      = 11
 
 # spacing & kayout
 adjust-cell-height             = 25%

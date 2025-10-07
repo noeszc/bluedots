@@ -11,7 +11,7 @@ sudo dnf install -y \
     ripgrep \
     fd-find \
     bat \
-    htop \
+    btop \
     curl \
     wget \
     jq \
