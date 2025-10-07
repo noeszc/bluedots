@@ -38,3 +38,5 @@ SOBOLE_THEME_MODE='dark'
 export VISUAL=nvim
 export EDITOR=nvim
 export PATH="$PATH:/usr/local/sbin:$DOTFILES/bin:$HOME/.local/bin"
+
+eval "$(mise activate zsh)"
