@@ -93,7 +93,7 @@ alias gec='git status | grep "both modified:" | cut -d ":" -f 2 | trim | xargs n
 alias gcan='gc --amend --no-edit'
 
 # Git Push and Open Pull Request
-alias gp="script -q /dev/null git push -u 2>&1 | tee >(cat) | grep 'pull/new' | awk '{print \$2}' | xargs xdg-open"
+alias gp="script -qec 'git push -u' /dev/null 2>&1 | tee >(cat) | grep 'pull/new' | awk '{print \$2}' | xargs xdg-open"
 
 # Git Force Push with Lease
 alias gpf='git push --force-with-lease'
