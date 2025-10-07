@@ -6,7 +6,7 @@ sudo dnf install -y \
     git \
     neovim \
     zoxide \
-    xclip \
+    wl-clipboard \
     fzf \
     ripgrep \
     fd-find \
@@ -15,7 +15,8 @@ sudo dnf install -y \
     curl \
     wget \
     jq \
-    trash-cli
+    trash-cli \
+		util-linux-script
 
 sudo dnf copr enable -y alternateved/eza
 sudo dnf copr enable -y jdxcode/mise

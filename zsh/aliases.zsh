@@ -4,6 +4,10 @@
 alias unmount_all_and_exit='unmount_all && exit'
 alias c='clear'
 
+# macOS clipboard compatibility with wl-clipboard (Wayland)
+alias pbcopy='wl-copy'
+alias pbpaste='wl-paste'
+
 # Text Editors
 alias v='nvim'
 alias vi='nvim'
