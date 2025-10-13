@@ -1,0 +1,48 @@
+# Brewfile para dotfiles multiplataforma (macOS/Linux)
+
+# Shells
+brew "zsh"
+
+# Version control
+brew "git"
+
+# Editors
+brew "neovim"
+
+# Navigation & fuzzy finding
+brew "zoxide"
+brew "fzf"
+
+# Search tools
+brew "ripgrep"
+brew "fd"
+
+# File utilities
+brew "bat"
+brew "eza"
+brew "trash-cli"
+
+# System monitoring
+brew "btop"
+
+# Network tools
+brew "curl"
+brew "wget"
+
+# JSON processor
+brew "jq"
+
+# Terminal multiplexer
+brew "tmux"
+
+# Lua tools
+brew "luacheck"
+
+# Development environment manager
+brew "mise"
+
+# util-linux no está disponible en Homebrew (es específico de Linux)
+# Las utilidades principales de macOS ya incluyen la mayoría de comandos
+
+# Cask applications
+cask "ghostty"

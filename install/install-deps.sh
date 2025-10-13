@@ -20,6 +20,4 @@ sudo pacman -S --needed --noconfirm \
     eza \
     ghostty \
     luacheck \
-		mise
-    
-
+	mise
